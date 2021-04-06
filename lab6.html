@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: <nav>
+    <u1 style=href-align:left;>
+      <li><a href='/'index.html">Home</a></1i>
+      <li><a href='#'index.html>Labs</a><ul>
+
+       <li><a href="lab1.html">Lab 1</a></li>
+       <li><a href="lab2.html">Lab 2</a></li>
+       <li><a href="lab3.html">Lab 3</a></li>
+       <li><a href="lab4.html">Lab 4</a></li>
+       <li><a href="lab5.html">Lab 5</a></li>
+    </u1>
+    </nav>; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+  <div class="item1">LAB 6</div>
+  <div class="item2"><nav>
+  <u1 style=href-align:left;>
+      <li><a href=index.html">Home</a></1i>
+      <li><a href=index.html>Labs</a></li>
+       <li><a href="lab1.html">Lab 1</a></li>
+       <li><a href="lab2.html">Lab 2</a></li>
+       <li><a href="lab3.html">Lab 3</a></li>
+       <li><a href="lab4.html">Lab 4</a></li>
+       <li><a href="lab5.html">Lab 5</a></li>
+       <li><a href="lab5.html">Lab 6</a></li>
+    </nav></div>
+  
+  <div class="item3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi in nulla posuere sollicitudin aliquam ultrices. Ornare suspendisse sed nisi lacus sed viverra tellus in hac. At erat pellentesque adipiscing commodo elit at imperdiet dui accumsan. Nunc sed velit dignissim sodales. Erat imperdiet sed euismod nisi. Tristique senectus et netus et malesuada. Netus et malesuada fames ac turpis egestas integer eget. Consequat id porta nibh venenatis cras sed felis eget. Viverra maecenas accumsan lacus vel facilisis volutpat est. Maecenas volutpat blandit aliquam etiam erat velit. Massa eget egestas purus viverra.</div>  
+  <div class="item4">:)</div>
+  <div class="item5"><footer>
+  <p> &copy;
+    <a href= "url">email: heinzelman.christopher@gmail com</a> 
+<small> chris heinzelman</small>
+    </p>
+</footer></div>
+</div>
